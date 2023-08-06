@@ -1,0 +1,567 @@
+/*
+Theme Name: DsStudios 
+Theme URI: http://dsstudios.it
+Description: DsStudios theme is designed exclusively for www.dsstudios.it 
+Author: Sam K.
+Author URI: http://dsstudios.it
+Version: 1.0
+Tags: dsstudios, sambigds, lil, tips, &, and, tricks, sam k
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+*/
+
+@charset "utf-8";
+/*Installing custom fonts*/
+@font-face{ font-family: calibri;
+			src: url('font/calibri.ttf');}
+@font-face{ font-family:calibri;
+			font-weight:bold; 
+			src:url('font/calibrib.ttf')}
+@font-face{font-family:arial_black;
+			src:url('font/ariblk.ttf')}
+body{
+	background:url(img/bg.jpg) no-repeat fixed;
+	margin-top:0 !important;
+	background-size:cover;
+	margin:0;
+	max-width:2500px;
+	max-height:2500px;
+	min-height:auto;
+	min-width:1200px;
+	overflow-x: hidden !important;
+}
+
+#wrapper{	
+	position: static;
+	top: -20px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display:table;
+	vertical-align:middle;
+	background:none;
+	/*overflow:hidden !important;*/
+}
+/*Header -- Start*/
+#header{
+	display:block;
+	position:relative;	
+	background:url(img/logo.png) no-repeat;
+	width:1200px; height:300px;
+	background-size:contain;
+	margin-bottom:50px;
+	/*border:thin red solid;*/
+}
+
+#header nav{
+	position:relative;
+	display:block;
+	top:250px;
+	left:0;
+	float:right;
+	width:1200px;
+	
+
+	
+}
+#header nav #navContainer{
+	position:relative;
+	display:block;
+	width:auto;
+	height:200px;
+	float:right;
+	right:150px;
+}
+
+
+/*Site_Pop_up -- Start*/
+
+#header nav #site_pop{
+	display:block;
+	position:relative;
+	float:right;
+	top:00px;
+	right:170px;
+	
+}
+#header nav #site_pop #site_pop_up{
+	background:#333;
+	padding:10px 50px 10px 20px;
+	font-size:15px;
+	text-transform:capitalize;
+	color:white;
+	border-radius:5px;
+	text-align:left;
+	font-weight:bold;
+}
+
+/*Site_Pop_up -- End*/
+/*Header -- End*/
+
+/*Index Style -- Start*/
+div #mainContent {
+	background:none;
+	width:1200px;
+	height:800px;
+	
+}
+div #mainContent #leftContent img{
+	display:block;
+	position:relative;
+	float:left;
+	
+}
+div #mainContent #rightContent{
+	position:relative;
+	float:right;
+	width:500px;
+	height:600px;
+	right:50px;
+	top:100px;
+	background:none;
+
+	
+}
+
+div #mainContent #rightContent #text .right_title{
+	width:auto;
+	height:auto;
+	padding:20px;
+	background:#333;
+	color:#F03;
+	font-family:calibri;
+	font-weight:bold;
+	font-size:50px;
+}
+div #mainContent #rightContent #text #about_title{
+	width:210px;
+}
+div #mainContent #rightContent #text #what_title{
+	width:350px;
+}
+div #mainContent #rightContent #text #what_text{
+	width:auto;
+	height:250px;
+}
+div #mainContent #rightContent #text .right_text{
+	position:relative;
+	margin:10px;
+	padding:20px;
+	font-family:calibri;
+	font-size:15px;
+	color:#333;
+	line-height:25px;
+	background:none;
+}
+div #mainContent #rightContent #text #about_text span{
+	background:#333;
+	color:#FFF;
+	padding:2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+div #mainContent #rightContent #text #what_text span{
+	display:block;	
+	background:#333;
+	color:#FFF;
+	padding:5px;
+	padding-left:8px;
+	margin:5px;
+	font-size:18px;
+}
+/*Index Style -- End*/
+/*Main Content Portfolio Style -- Start*/
+div #mainContainerPortfolio{
+	width:800px;
+	height:auto;
+	maring-top:20px;
+}
+div #mainContainerPortfolio h1{
+	font-family:arial_black;
+	
+}
+
+div .portfolioPost {
+	display: inline-block;
+	position:relative;
+	margin-top:20px;
+	width:300px;
+	height:200px;	
+	/*background:url(img/imgBg.png) no-repeat;*/
+}
+
+div #imgContainer{
+	position:relative;
+	top:10px;
+	width:300px;
+	height:200px;
+	display:block;	
+	overflow: auto;
+	border:1px solid #3a3a3a;
+	background:white;
+}
+#whiteBorder {background:url(img/imgBg.png) no-repeat;}
+#pLoader{
+	position:absolute;
+	top:150px;
+	left:400px;
+}
+div .portfolioPost img {
+	text-align: center;
+	border:none;	
+	position:relative;
+	z-index:inherit;	
+
+}
+
+div #infoContainer{
+	display: none;
+	position: absolute !important;
+	z-index:0;
+	bottom:20px;
+	left:20px;
+	background:none/*#191C20*/;
+	padding:10px;
+	width:750px;
+	height:auto;
+}
+
+
+div #infoContainer span {
+	color:white;	
+	font-family:calibri;	
+	top: 0px;	
+	display: inline-block;
+	padding:5px;
+	margin:2px;
+}
+div #infoContainer #projectHead #projectTitle {
+	position:absolute; 
+	left:10px; 
+	top:10px; 
+	font-family:arial_black; 
+	font-size:20px; 
+	background:url('img/txBg.png')/*#463335*/; 
+	width:250px; 
+	color:#FEFDC4; 
+	border-radius:5px; 
+	padding:10px !important;
+	text-transform: capitalize;}
+
+
+#dateLoaded{position:absolute; display:block; top:-150px; float:left; left:-80px; margin:10px;  font-size:12px; width:50px;}
+#dateLoaded span{
+	position:relative; 
+	display:inline-block; 
+	font-size:20px !important; 
+	font-weight:bold;
+	padding:10px 10px 10px 30px !important;
+	border-radius:5px;
+	float:right;
+	text-align:right !important;
+	background:#3a3a3a;}
+#dateLoaded #projectMonth{color:#3a3a3a;background:#ff003a;}
+div#otherInfo{position:relative; margin-top:50px;  padding:10px;}
+div#otherInfo span {background:url('img/txBg.png') repeat-x /*#463335*/; color:#FEFDC4; border-radius:5px;/*border-top-right-radius:5px; border-bottom-right-radius:5px;*/ }
+
+#dateLoaded #arrowUp{
+	position:relative;
+	display:block;
+	top:33px;
+}
+#dateLoaded #arrowDown{
+	position:relative;
+	display:block;
+	top:64px;
+	right:-27px;
+}	
+
+/*portfolio MainContent Style -- End*/
+/*imgBox style -- Start*/
+#imgBox {
+	display:block;
+	position:absolute;
+	width:700px;
+	height:500px;
+	top:500px;
+	
+	/*right:auto;*/
+	margin-left:auto;
+	margin-right:auto;
+	background:white;	
+	/*margin-left: auto;
+	margin-right: auto;*/
+	z-index:50;
+	border:thick solid black;
+}
+#imgBoxImg{
+	position:relative;
+	display:block;
+}
+#shadow{
+	width:3000px;
+	height:3000px;
+	opacity:0.5;
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10	;
+	background:black;
+}
+#nextImg{
+	width:50px;
+	height:50px;
+	background:none;
+	display:block;
+	position:absolute;
+	top:0;
+	right:-60px;
+	z-index:51;
+}
+#prevImg{
+	width:50px;
+	height:50px;
+	background:none;
+	display:block;
+	position:absolute;
+	top:0;
+	left:-60px;
+	z-index:52;
+	
+}
+#loader{
+	width:24px;
+	height:24px;	
+	display:block;
+	position:absolute;
+	top:150px;
+	left:250px;
+	
+}
+#closeImg{
+	width:50px;
+	height:50px;
+	background:none;
+	display:block;
+	position:absolute;
+	top:-50px;
+	right:-50px;
+	z-index:53;
+	
+}
+
+#imgInfo{
+	display:block;
+	position:absolute;
+	bottom:20px;
+	left:10px;
+	background:none;
+	z-index:100;
+}
+
+#imgInfo span{
+	font-family:calibri;
+	display:inline-block;
+	background:url('img/txBg.png') /*#463335*/; 
+	text-transform: capitalize;
+	color:#FEFDC4;
+	border-top-right-radius:5px; 
+	border-bottom-right-radius:5px; 
+	
+	padding:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	text-align:center;	
+}
+#imgInfo span#imgInfoProject{
+	font-family:arial_black;
+	position:relative;
+	top:10px;
+	left:10px:
+}
+#imgInfo #imgInfoOther{
+	position:relative;
+	top:10px;
+	left:10px:
+}
+#imgInfo #imgInfoOther span{
+	position:relative;
+	display:inline-block;
+
+}
+/*imgBox style -- End*/
+/*Footer Style -- Start*/
+footer{
+	margin-top:50px;
+	padding-top:50px;
+	border-top:2px solid #191C20;
+}
+footer ul li {
+	display:inline-block;
+	text-decoration:none !important;
+	margin:0 0 5px 5px;
+	width:80px;
+	height:20px;
+	color:#9fffff !important;
+	text-align:center;
+	background:#383431;
+	font-family:calibri;
+	font-size:12px;
+	font-weight:bold;
+	padding:7px 0 0 0;
+}
+footer ul li a{	text-decoration:none;color:#EEE !important;}
+/*Footer Style -- End*/
+/*Blog Style -- Start*/
+
+#mainContaintBlog{
+	position:relative;
+	/*border:solid thin red;*/
+}
+#mainContaintBlog article { display:block; width:700px; position:relative; background:none;}
+#mainContaintBlog article a{color:#333;}
+#mainContaintBlog article #post_link{color:#333; text-decoration:none; position:relative; left:0px;}
+#mainContaintBlog article #post_link h1 {text-transform: capitalize; position:relative; max-width:650px; background:none; padding:10px;}
+#mainContaintBlog article a:hover{color:#900;}
+#mainContaintBlog article {padding:10px; width:800px;}
+#post_link h1:hover{color:#C00;}
+
+
+#mainContaintBlog article #content_e {
+	position:relative;	
+	margin:10px 10px 0px 0px;
+	padding:10px; 
+	background:yellow; 
+	width:700px; 
+	font-family:calibri; 
+	font-size:16px;
+	color:black;
+	background:#fff;
+}
+#mainContaintBlog article #date_time{
+	display:block;
+	position: absolute;
+	font-family:calibri;
+	font-weight:bold;
+	text-transform:capitalize;	
+	left:-70px;
+	top:30px;
+	width:auto;
+	background:;
+	padding:10px;
+}
+#mainContaintBlog article #date_time span{ padding:5px;}
+#mainContaintBlog article #date_time #mon {
+	position:absolute; 
+	color:#fff; 
+	background:#3a3a3a; 
+	font-size:24px; 
+	padding:10px;
+	width:40px 
+	
+}
+#mainContaintBlog article #date_time #day {
+	position:absolute;
+	top:-20px; 
+	border-radius:0 !important;
+	color:#fff; 
+	background:#777; 
+	font-size:24px; 
+	padding-right:10px;
+	width:20px;
+	text-align:right;
+}
+#mainContaintBlog article #date_time #year{
+	position:absolute;
+	top:50px;
+	color:#333; 
+	background:none; 
+	font-size:18px; 	
+} 
+#mainContaintBlog article #meta_data {display:inline-block; position:relative; margin:10px; left:0px; width:600px; }
+#mainContaintBlog article #meta_data #meta_tags a {
+	display:inline-block;
+	margin:2px;
+	position:relative;
+	background:#333; 
+	padding:3px 5px 3px 5px;
+	top:5px;	 
+	border-radius:5px; 
+	color:white;
+	text-transform:capitalize;
+	}
+#mainContaintBlog article #meta_data #meta_tags a:hover { background:#efefef; color:#333;}
+
+#mainContaintBlog article #meta_data #categories {
+	display:inline-block; position:relative; margin-top:30px; 
+	font-weight:bold;
+	}
+#mainContaintBlog article #meta_data #categories a {
+	background:#900; 
+	padding:3px 5px 3px 5px;
+	top:5px;	 
+	border-radius:5px; 
+	color:white;
+}
+#mainContaintBlog article #meta_data #categories a:hover {background:#fff; color:#333;}
+
+#mainContaintBlog article #meta_data #comments_count {margin:5px; background:#eee; padding:5px; border-radius:5px; border:1px solid #333;}
+
+#mainContaintBlog #nav_below { position:relative; left:0px; display:inline-block; width:820px; margin:0; background:none;}
+
+#mainContaintBlog #nav_below #nav  {position:relative; display:inline-block; margin:10px 10px 10px 10px;}
+
+#mainContaintBlog #nav_below .nav_previous {float:left; width:110px; }
+
+#mainContaintBlog #nav_below .nav_next {float:right; right:0px; width:95px; }
+
+#mainContaintBlog #nav_below #nav a span, #mainContaintBlog #nav_below #nav a p {position:relative; display:inline-block;}
+#mainContaintBlog #nav_below #nav a p  {color:#333; font-weight:bold;}
+#mainContaintBlog #nav_below #nav a p:hover  {color:#C30; font-weight:bold;}
+
+/*single_post_above*/
+
+/*
+#mainContaintBlog #nav_above_s { position:relative; display:inline-block; width:700px; margin:10px 0 0 30px; top:30px; }
+
+#mainContaintBlog #nav_above_s #nav  {position:relative; display:inline-block; width:300px; margin:10px 10px 10px 10px;}
+
+#mainContaintBlog #nav_above_s .nav_previous {float:left;}
+
+#mainContaintBlog #nav_above_s .nav_next {float:right; right:-50px;}
+
+#mainContaintBlog #nav_above_s #nav span {position:relative; display:inline-block; }
+
+#mainContaintBlog #nav_above_s #nav p{position:relative; display:inline-block; width:250px;}
+
+#mainContaintBlog #nav_above_s #nav  p a  {position:relative; color:#333; font-weight:bold;}
+#mainContaintBlog #nav_above_s #nav  p a:hover  {color:#C30; font-weight:bold;}
+
+#mainContaintBlog #nav_above_s .nav_next  p {text-align:right;}
+*/
+
+/*single_post_below*/
+/*
+#mainContaintBlog #nav_below_s { position:relative; display:inline-block; width:700px;}
+
+#mainContaintBlog #nav_below_s #nav  {position:relative; display:inline-block; width:300px; margin:10px 10px 10px 10px;}
+
+#mainContaintBlog #nav_below_s .nav_previous {float:left;}
+
+#mainContaintBlog #nav_below_s .nav_next {float:right; right:-50px;}
+
+#mainContaintBlog #nav_below_s #nav span {position:relative; display:inline-block; }
+
+#mainContaintBlog #nav_below_s #nav p{position:relative; display:inline-block; width:250px;}
+
+#mainContaintBlog #nav_below_s #nav  p a  {position:relative; color:#333; font-weight:bold; }
+#mainContaintBlog #nav_below_s #nav  p a:hover  {color:#C30; font-weight:bold;}
+
+#mainContaintBlog #nav_below_s .nav_next  p { text-align:right;}
+*/
+
+/*Blog Style -- End*/

@@ -1,0 +1,15 @@
+/*Uploader_Stylesheet*/
+
+#wrapper_i{ display:block; width:700px;  margin:250px auto 250px auto !important; border:1px solid #888; }
+#wrapper_u{ display:block; width:500px; height:600px;  margin:150px auto 250px auto !important; border:1px solid #888; }
+div#login{ position:relative; background:#efefef; text-decoration:center;padding:50px !important; height:auto;}
+
+div#fieldDiv{position:relative; background:#efefef; text-decoration:center;padding:50px !important; height:500px;}
+/*div#fieldDiv lable{float:left; padding:5px;}
+div#fieldDiv input{float:right;}*/
+#error_report {color:#C00 !important;}
+#logout{display:block; position:relative; top:-55px; right:-90px;}
+.checkbox_d{diaplay:block; position:relative; right:-370px;}
+.make_d{diaplay:block; position:relative; right:0px;}
+#index_i{float:right;  position:relative; top:-170px; right:40px; }
+#index_u{float:right;  position:relative; top:-92px; right:155px; }
