@@ -1,0 +1,46 @@
+.apri{ font-size:18px; font-family:Verdana, Geneva, sans-serif; float:right; margin-right:50px;}
+
+.overlay{
+    background:#000;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+    cursor:pointer;
+/*Trasperenza cross browser*/
+opacity: .7; filter: alpha(opacity=70);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";  
+ 
+}
+#pop-up{
+	width:100%;
+	height:100%;
+} 
+#box{  margin:0 auto;
+width:600px; height:400px; background-color:#FFF; display:none; z-index:+300; position:absolute; left:30%; top:20%; -moz-border-radius: 15px;  -webkit-border-radius: 15px;
+border-radius: 15px;}
+
+#box p {
+	padding:20px;
+}
+
+#box h3{
+	position:relative;
+	padding:10px;
+	left:20px;
+}
+.chiudi{ 
+	font-size:18px; 
+	color:#333; 
+	font-weight:bold; 
+	position:absolute; 
+	right:2%; 
+	top:10px;  
+	cursor:pointer; 
+	padding:0px 10px 0px 10px !important;
+	background:none; 
+	border:red 1px solid;
+	border-radius:50px;
+}

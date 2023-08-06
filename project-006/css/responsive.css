@@ -1,0 +1,442 @@
+
+/* Mobile responsive*/
+@media only screen and
+
+(orientation: landscape){
+	body{
+		position:static;
+		background:none;
+		width:100%;
+		height:auto;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		vertical-align:middle;
+		font-family: calibri;				
+	}
+	a{
+		text-decoration:none !important;
+	}
+	div#header {
+		position:relative;
+		width:100%;
+		height:auto;		
+	}
+	div#header #logo{
+		position:relative;
+		display:block;
+		width:100%;		
+	}	
+	div#headerWrapper #header #navBar{
+		position:relative;
+		background:none;
+		height:60px;		
+		text-align:center;
+		background:none;
+	}
+	div#headerWrapper #header #navBar a {	
+		position:relative;
+		z-index:0;
+		top:0px;
+		display:inline-block;
+		width:110px;
+		height:55px;
+		padding:10px;				
+		text-decoration:none !important;
+		color: black;	
+		font-size:16px;		
+		text-align:center;	
+	}
+	div#headerWrapper #header #navBar a span {
+		position:relative;
+		top:10px;		
+	}
+	div#headerWrapper #header #navBar a:hover:not(.navActivePage){
+		background:none;
+		color:#e71a29;	
+	}	
+	.navActivePage{
+		width:140px !important;
+		background:url("img/navBox_3.jpg") no-repeat;
+		color:white !important;
+		padding:5px 10px 5px 10px;	
+	}
+/*Index -- start*/
+	div#mainContaint #mainContaintWrapper #text1{
+		text-align:center;
+		width:960px;
+		height:200px;
+		margin-bottom:50px;
+		margin-top:50px;		
+	}
+	#mainContaint #gallery {	
+		padding:10px;
+		top:60px;
+		position: relative;
+		background: none; 
+		width: 960px; 
+		height: 350px; 
+		text-align: center;
+	}
+	#mainContaint img {width:30%;}
+	
+	#mainContaint #text1{
+		text-align:center;
+		font-size:16px;
+	}	
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsLeft2 #twoColumLeft2Img{
+		width:275px;	
+		position:absolute;
+		left:0px;
+	}
+/*Index -- end*/
+
+/*Contatti -- start*/
+	div#mainContaint #mainContaintWrapper #boxcontatti{
+		position:relative;
+		display:inline-block;
+		width:960px;
+		height:1100px;		
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiinfo{
+		width:450px;
+		height:300px;		
+	}
+/*Contatti -- end*/
+
+	.headline{
+		position:relative;		
+		margin:20px 0 20px 0;
+		background:none;
+		text-align:left;
+	}
+}
+
+@media only screen 
+ and (orientation: portrait){ /* and (max-device-width : 700px) and (orientation: portrait)*/
+	html,body{		
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
+		
+	}
+	div#mainContaint{
+		background:none;
+		position:relative;
+		top:50px;
+	}
+	div#headerWrapper #header #navBar{
+		width:auto;
+		height:auto;
+		
+	}
+	.headline{
+		position:relative;
+		top:50px;
+		margin:20px 0 20px 0;
+		background:none;
+		text-align:left !important;
+	}
+	div#headerWrapper #header #navBar #navBarWrapper{
+		display:none;
+		position:absolute;
+		left:30%;
+		top:25%;
+		width:0;
+		height:auto;
+		z-index:20;
+		background:yellow
+	}
+	div#headerWrapper #header #navBar ul{
+		
+		position:relative;
+		width:50%;
+		height:auto;
+		background:nonew;
+		margin:0 auto;
+	}
+	div#headerWrapper #header #navBar li{
+		display:block;
+		position:relative;
+		width:300px;
+		height:auto;
+		background:none;
+		margin:2px;	
+		margin-top:5px;
+	}
+	div#headerWrapper #header #navBar li a{
+		text-align:center;
+		width:90%;
+		height:auto;
+		font-size:30px;
+		background:#bb3e3e;
+		padding:20px 10px 50px 10px;
+		border-radius:10px;
+	}
+	div#headerWrapper #header #navBar li.sub-item{
+		position:relative;
+		top:-50px;
+	}
+	div#headerWrapper #header #navBar li.sub-item a {
+		padding:20px 10px 20px 10px !important;
+	}
+	div#headerWrapper #header #navBar a:hover:not(.navActivePage){
+		background:white;
+		color:black;	
+	}
+	.navActivePage{
+		width:90% !important;		
+		background: #e71a29;		
+		padding:10px 10px 10px 10px;	
+	}
+
+	div#mainContaint #mainContaintWrapper #gallery {
+		width:auto;
+		display:none;
+	}
+	#wrapper {		
+		display:block;
+		background:none;
+	}
+	div#header {
+		position:relative;
+		width:auto;
+		height:auto;
+		
+	}
+	div#headerWrapper #header #logo{
+		position:relative;
+		width:auto;
+		text-align:center;
+		margin-left: auto;
+		margin-right: auto;
+		display:table;
+		vertical-align:middle;
+		height:170px;
+	}
+	div#headerWrapper #header #navMobileRes{
+		display:block;
+		background:none;
+		position:relative;
+		top:-1px;
+		float:left;
+		left:20px;
+	}
+	div#headerWrapper #header #navMobileRes #navMobileHref{
+		position:absolut;
+		display:inline-block;
+		background:none;
+		width:300px;
+		height:100px;
+		
+	}
+
+	div#headerWrapper #header #navMobileRes #navResIcon{
+		width:100px !important;
+		height:70px;
+		background: url("img/navBox_3_res.jpg") no-repeat !important;
+		color:white !important;
+		font-size:40px;
+		padding:5px 10px 5px 10px;
+		padding:5px 5px 5px 5px;
+		text-decoration:none !important;
+	}
+
+	div#headerWrapper #header #navMobileRes #navResText{
+		position:relative;
+		left:20px;
+		text-decoration:none !important;
+		color: black !important;		
+	}
+	
+	/*index -- start*/
+	div#mainContaint #galleryContainer{
+		width:auto;
+	}
+	div#mainContaint #mainContaintWrapper #text1{
+		width:auto;
+		height:auto;
+		position:relative;
+		top:-250px;	
+		margin-bottom:30px;
+		background:none;	
+	}
+	div#mainContaint #mainContaintWrapper #text1 p{
+		font-size:30px !important;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums1{
+		width:auto;
+		height:auto;
+		position:relative;
+		top:-200px;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums1 span{
+		width:50%;
+		font-size:40px !important;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums1 #twoColumsLeft1{
+		width:auto;
+		float:none;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums1 #twoColumsRight1 {
+		width:auto;
+		margin-top:50px;
+		float:none;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2{
+		width:auto;
+		height:auto;
+		position:relative;
+		top:-150px;
+	}
+
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsLeft2{
+		width:100%;
+		height:auto;
+		float:left;
+		padding:5px;
+		margin-bottom:80px;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsLeft2 img{
+		width:50%;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsLeft2 h3{
+		position:relative;
+		left:;
+		top:10px;	
+		color:white;
+		font-size:50px !important;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsLeft2 p {
+		font-size:20px !important;
+		width:90%;
+		top:0px;
+		font-size:30px !important;
+		
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsRight2{
+		width:100%;
+		height:auto;		
+		margin-top:50px;
+		float:right;
+		background:none;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsRight2 #twoColumRight2Img{
+		position:relative;
+		width:30%;
+		
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsRight2 h3{
+		font-size:50px !important;
+		top:-180px;
+	}
+	div#mainContaint #mainContaintWrapper #twoColums2 #twoColumsRight2 p {
+		font-size:20px !important;
+		width:60%;		
+		top:-180px;
+	}
+	div#footer p{
+		font-size:30px !important;
+		
+	}
+	div#mainContaint #mainContaintWrapper .twotworight_2{	
+
+	top:-50px;
+}
+/*Index -- end*/
+/*Contatti -- start*/
+
+	div#mainContaint #mainContaintWrapper #boxcontatti{
+		width:auto;
+		height:1500px;
+		position:relative;		
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiinfo{
+	width:100%;
+	height:350px;
+	left:40px;
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiinfo span{
+		font-size:30px;
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiinfo span p{
+		font-size:24px;
+		padding-left:20px;
+	}	
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiform{
+		width:100%;
+		display:block;
+		top:50px;
+		float:none;
+		background:none;
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiform fieldset{
+		width:100%;	
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiform fieldset legend{
+		position:relative;
+		top:0;
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiform fieldset label{
+		font-size:20px !important;
+	}
+	div#mainContaint #mainContaintWrapper #boxcontatti #boxcontattiinfo{
+		width:auto;
+		display:block;
+		float:none;
+	}
+	
+ 	div#footer {background: none; width:; position: relative; margin-top:0px;}
+/*Contatti -- end*/
+
+
+}
+@media only screen 
+and (max-device-width : 320px)
+and (orientation: portrait) 
+{
+a {
+	text-decoration:none;
+}
+div#mainContaint #mainContaintWrapper #twoColums1{
+	position:relative;
+	display:block;
+	width:auto;
+	background:none;
+	position:relative;
+	top:-100px;
+	float:none;
+}
+div#mainContaint #mainContaintWrapper #twoColums1 span{
+	width:60%;
+	font-size:30px !important;
+	
+}
+div#mainContaint #mainContaintWrapper #twoColums1 img {
+	width:30%;
+	height:auto;
+}
+div#mainContaint #mainContaintWrapper #twoColums1 #twoColumsLeft1{
+	width:100%;
+	float:none;
+}
+div#mainContaint #mainContaintWrapper #twoColums1 #twoColumsRight1 {
+	width:100%;
+	margin-top:50px;
+	float:none;
+}
+div#mainContaint #mainContaintWrapper #twoColums2{
+		width:auto;
+		height:auto;
+		position:relative;
+		top:-100px !important;
+}
+div#mainContaint #mainContaintWrapper #text2{		
+		width:auto;
+		position:relative;
+		top:-100px;
+}
+
+}
