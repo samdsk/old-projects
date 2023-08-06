@@ -1,0 +1,1 @@
+[18-Mar-2015 19:25:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/samdsk/public_html/n/wp-content/themes/nerds/index.php on line 14

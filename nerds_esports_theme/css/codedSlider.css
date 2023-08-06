@@ -1,0 +1,83 @@
+/* CSS Document */
+#codedSliderItems{
+	display:none;
+}
+#codedSlider{
+	display:block;
+	width:800px;
+	height:400px;
+}
+#frameImg{
+	position:absolute;
+	z-index:50;
+}
+#sliderWrapper{
+	position:relative;
+	display:block;
+	width:800px;
+	height:295px;
+	overflow:hidden !important;
+}
+#frameImg{
+	z-index:9;
+}
+#sliderNav{
+	display:block;
+	position:absolute;
+	z-index:60;
+	top:265px;
+	left:290px;
+	background:none;
+}
+#sliderNav .sliderNavItems{	
+	display:inline-block;
+	position:relative;	
+	width:10px;
+	height:10px;
+	background:#0f0;
+	margin-left:5px;	
+	border-radius:10px;
+}
+#sliderNav a{
+	margin-left:10px;
+}
+.slideImg{
+	display:block;
+	position:aboslute;
+	top:0px;
+	z-index:5;
+}
+.sliderNavActive{
+	background:white !important;
+}
+.slideActive{
+	position:absolute;
+	top:20px;
+	z-index:6;
+	opacity:0;
+}
+#slideCaptionWrapper{
+	display:block;
+	width:700px;
+	height:auto;
+	position:absolute;
+	z-index:10;
+	left:50px;
+	bottom:10px;
+	background:unone;
+}
+#slideCaptionWrapper #caption{
+	padding:5px 10px 30px 10px;	
+	
+}
+#slideCaptionWrapper #caption h2{
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	background:url('../img/op_3.png');
+	padding:10px;
+}
+#slideCaptionWrapper #caption p{
+	background:url('../img/op_3.png');
+	padding:10px;
+}
