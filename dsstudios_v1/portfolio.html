@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DsStudios Portfolio</title>
+<!--Meta Tags-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DsStudios | Portfolio" />
+<meta property="og:url" content="http://dsstudios.altervista.org/portfolio.html" />
+<meta property="og:description" content="DsStudios mainly deal in graphic design from 2D to 3D, page layouts from digital to print. and logo design. I love to create clean and user friendly designs" />
+<meta property="og:site_name" content="DsStudios | Portfolio"/>
+<meta property="og:image" content="http://www.dsstudios.altervista.org/includes/js/port/full/official-site_lightbox_4.jpg" />
+<!--Style Sheets-->
+<link rel="shortcut icon" href="http://www.dsstudios.altervista.org/includes/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="includes/css/nav.css">
+<link rel="stylesheet" type="text/css" href="includes/css/portfolio.css">
+<link rel="stylesheet" type="text/css" href="includes/candleshadow/candle_shadow.css">
+
+<style type="text/css">
+body,td,th {
+	font-family: Calibri, Arial;
+	font-size:12px;
+}
+</style>
+<!--Scripts-->
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type='text/javascript' src='includes/js/modernizr.custom.96418.js'></script>
+<script type='text/javascript' src="http://code.jquery.com/jquery-latest.js"></script>
+<script type='text/javascript' src='includes/js/portfolio.js'></script>
+<script>
+
+$(document).ready(function() {
+	
+	$('#maincontainer').fadeIn(2000);
+});
+
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#333333">
+	
+    <div id="maincontainer" style="display:none;">
+    	<div id="nav" align="center">
+        	<div class="nav_bg"><a href="index.html" title="Home" target="_self"><p>Welcome</p></a></div>
+			<div class="nav_bg_active"><a a id="active_link" href="portfolio.html" title="Portfolio" target="_self"><p>Portfolio</p></a></div>
+            <div class="nav_bg"><a href="services.html" title="Services" target="_self"><p>Services</p></a></div>
+            <div class="nav_bg"><a href="contact.html" title="Contact" target="_self"><p>Contact</p></a></div>
+        </div>
+		<div id="special">
+        <h3>
+        	Coming up new portfolio layout! stay tuned...
+            <a class="special" href="https://www.facebook.com/photo.php?fbid=415494691797374&set=a.232809730065872.80056.122084791138367&type=1&theater" target="_blank">PREVIEWE</a>
+        </h3>
+        </div>
+        <div id="leftside">
+		<!--leftside start-->	
+        	<div id="progects">
+            	<ul>
+					
+                	<p><a id="graphic" class="tt" href="javascript:void(0)">Graphic Design</a></p>
+                    <script>
+						$('#graphic').click(function(){	
+							$('#rightsideWeb').slideUp('fast');	
+							$('#rightsideGraphic').slideToggle('slow');	
+							
+						 });
+					</script>
+	 
+                    <p><a id="web" class="tt" href="javascript:void(0)">Web Design</a></p>
+					<script>
+						$('#web').click(function(){	
+							$('#rightsideGraphic').slideUp('fast');	
+							$('#rightsideWeb').slideToggle('slow');	
+						});
+					</script>
+                    
+                    <p><a id="motion" class="tt" href="javascript:void(0)">Motion Design</a></p>
+	
+                </ul>
+
+            </div>
+        <!--leftside end-->	
+        </div>
+		<!--start rightside-->	
+        <div id="rightsideGraphic">
+        <div id="line"><h4><a class="image_dsstudios" href="javascript:void(0)"><h4>DsStudios</a></h4></div>
+            <div id="imgwrapper1" class="pic"></div>
+        <div id="line"><h4><a class="image_designers" href="javascript:void(0)">Designers Showcase</a></h4></div>    
+            <div id="imgwrapper2" class="pic"></div>
+        <div id="line"><h4><a class="image_typo" href="javascript:void(0)">Typography</a></h4></div>
+            <div id="imgwrapper3" class="pic"></div>
+
+        </div>
+        
+		<div id="rightsideWeb">
+        <div id="line"><h4><a class="pic_web_official" href="javascript:void(0)"><h4>DsStudios Official Site</a></h4></div>
+            <div id="webwrapper1" class="pic"></div>
+
+
+        </div>
+        <div id="rightsideMotion">
+        </div>
+        <!--rightside end-->
+        <!--map start-->	
+        <div id="map_container">
+            <div id="map">
+                <footer>
+                    <p>
+                      <il class="map"><a href="index.html" title="Home">Home</a></il>
+                      <il class="map"><a href="portfolio.html" title="Portfolio">Portfolio</a></il>
+                      <il class="map"><a href="services.html" title="Services">Services</a></il>
+                      <il class="map"><a href="contact.html" title="Contact">Contact</a></il>
+                      <il class="map"><a href="links.html" title="Useful Links">Useful Links</a></il>
+                      <il class="map"><a href="sf.html" title="Design Software">Design Software</a></il>
+                      <il class="map"><a href="tuts.html" title="Where to find tuts">Where to find tuts  </a></il>
+                    </p>
+                    <p>
+                        Designed & Developed by DsStudios | SamBigDs
+                    </p>
+                </footer>
+            </div>
+        <!--map end-->
+        </div> 
+
+ 
+<!--end main-->
+    </div>
+
+   
+    
+<script type='text/javascript' src='includes/candleshadow/candle_shadow.js'></script>
+</body>
+
+</html>

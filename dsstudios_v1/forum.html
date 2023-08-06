@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DsStudios | Contact</title>
+<!--Meta Tags-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="DsStudios Contact" />
+<meta property="og:url" content="http://dsstudios.altervista.org/contact.html" />
+<meta property="og:description" content="DsStudios mainly deal in graphic design from 2D to 3D, page layouts from digital to print. and logo design. I love to create clean and user friendly designs" />
+<meta property="og:site_name" content="DsStudios Contact" />
+<meta property="og:image" content="http://www.dsstudios.altervista.org/includes/images/official-site_body.jpg" />
+<!--Style Sheets-->
+<link rel="shortcut icon" href="http://www.dsstudios.altervista.org/includes/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="includes/css/forumnav.css">
+<link rel="stylesheet" type="text/css" href="includes/css/forum.css">
+<script>
+$(document).ready(function() {
+	
+	$('#maincontainer').fadeIn(2000);
+	$('.blueberry').fadeIn(2000);
+
+
+});
+</script>
+
+
+<style type="text/css">
+body,td,th {
+	font-family: Calibri, Arial;
+	font-size:12px;
+}
+</style>
+<!--Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type='text/javascript' src='includes/js/jquery-1.6.4.min.js'></script>
+<script type='text/javascript' src='includes/js/modernizr.custom.96418.js'></script>
+<script>
+$(window).load(function() {
+	
+	$("img").css("display", "none");
+	$("img").fadeIn("slow");
+	
+});
+</script>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#333333">
+	
+    <div id="maincontainer">
+    	<div id="nav" align="center">
+        	<div class="nav_bg"><a  href="index.html" title="Home" target="_self"><p>Forum</p></a></div>
+            <div class="nav_bg_active"><a id="active_link" href="contact.html" title="Contact" target="_self"><p>Contact</p></a></div>
+        </div>
+
+        <div id="forms">
+        	
+            	<fieldset>
+            	<legend>Post</legend>
+            	<form id="fields" action="post.php" name="contact" method="POST">
+                	<div class="names">
+                        
+                        
+                        <input class="firstN" name="Name" type="text" autofocus="autofocus" placeholder="First Name" />
+                        
+                    </div>
+                    <br/><br/>
+
+                    <div class="emails">
+                        <input class="emailE" name="Email" type="email" placeholder="name@domain.com" maxlength="30" />
+                    </div>
+                    <br/><br/>
+                    <div class="msgs">
+                        <label class="comment" for="comment"> Comment</label>
+                        <br/>
+                        <textarea class="commentarea" cols="20" rows="5" name="comment" placeholder="Write your commment" ></textarea>
+                    </div>
+                    <br/><br/>
+                    <input class="buts" type="submit"  name="submit" value="Post" />
+                    <input class="buts" type="reset" name="clear"  value="Reset">
+                </form>
+                </fieldset>
+           
+        </div>       
+		       
+<!--end main-->
+    </div>
+
+   
+    
+
+</body>
+</html>

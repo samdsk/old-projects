@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* Portfolio CSS Document */
+
+#map_container{position:relative; top:50px;}
+
+#leftside {	display:block;
+			position: absolute;
+			top:100px;
+			width:200px;
+			height:auto;
+			background:white;
+			margin:10px;
+			padding-right:10px;
+			padding-top:10px;
+			padding-bottom:10px;
+			border-right:solid #CCC;
+			border-width:1px;
+			
+
+}
+#leftside .tt { font-family:calibri; 
+				color:#333;
+				font-size:16px; 
+				border-left:#FF0066 10px solid; 
+				font-style:normal; 
+				text-decoration:none; 
+				padding-left:5px;
+				margin-bottom:10px;
+}
+
+
+#graphic, #web, #motion {position:relative;}
+
+#line a {text-decoration:none; font-size:15px; color:#333;}
+
+#rightsideGraphic {position:relative; top:100px; left:250px;}
+#rightsideWeb {position:relative; top:100px; left:250px; display:none;}
+
+/*IE fix*/
+a img {text-decoration:none; border:0;}
+
+
+
+#imgwrapper1 { position:relative; width:800px; height:650px; overflow:hidden; display:none;}
+#imgwrapper2 { position:relative; width:800px; height:200px; overflow:hidden; display:none;}
+#imgwrapper3 { position:relative; width:800px; height:1100px; overflow:hidden; display:none; }
+#webwrapper1 { position:relative; width:800px; height:200px; overflow:hidden; display:none; }
+
+
+#pic_dsstudios {width:314px; height:212px; display:inline-block; color:white; }
+#pic_designers {width:314px; height:212px; display:inline-block; color:white; }
+#pic_typo {width:314px; height:212px; display:inline-block; color:white; }
+#pic_web_official {width:70px; height:80px; display:inline-block; color:white; }
+
+#map_container {position: relaive; top:150px; width:1024px; overflow:hidden;}
+
+
+#special {display:block; position:absolute;}
+#special a {text-decoration:none; color:#C00; font-size:15px; font-weight:500;}
+
+
+

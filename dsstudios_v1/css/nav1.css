@@ -1,0 +1,78 @@
+/* DsStudios Official site Css testing Document */
+
+body {text-align:center; background: #FFF; }
+
+/*table*/
+
+
+/*nav_bg*/
+.nav1 {background-image: url(images/navwhite.jpg);}
+
+
+/*nav_other_links*/
+.other a:link, a:visited { text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+.other a:hover {text-decoration:none; color: #666; font-family: Calibri, Arial; text-align:center;}
+.other a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+
+/*nav_white_links*/
+.white a:link { text-decoration:none; color:#FFF; font-family: Calibri, Arial; text-align:center;}
+.white a:visited { text-decoration:none; color:#FFF; font-family: Calibri, Arial; text-align:center;}
+.white a:hover {text-decoration:none; color: #666; font-family: Calibri, Arial; text-align:center;}
+.white a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+/*body_text*/
+.who {font-family: Calibri, Arial; color: #ff0030; align:left; font-weight:bold; border-bottom:solid; border-bottom-width:thin; border-color:#000; padding-left:1em;}
+/*text_description*/
+.text {font-family: Calibri, Arial; color: #333; align:left; padding-left:2em; padding-bottom:-2em;}
+/*links_rollover*/
+.links {widht:238px; height:113px; }
+.links a {border-bottom-style: solid; border-radius: 10px; border-color:black; border-bottom-width:thin; display: block; width: 238px; height:113px; background:url(images/links.jpg) no-repeat top left;}
+.links a:hover { background-position: top right;}
+/*sf_rollover*/
+.sf {widht:238px; height:113px; }
+.sf a {border-bottom-style: solid; border-radius: 10px; border-color:black; border-bottom-width:thin; display: block; width: 238px; height:113px; background:url(images/sf.jpg) no-repeat top left;}
+.sf a:hover { background-position: top right;}
+/*tuts_rollover*/
+.tuts {widht:238px; height:113px; }
+.tuts a {border-bottom-style: solid; border-radius: 10px; border-color:black; border-bottom-width:thin; display: block; width: 238px; height:113px; background:url(images/tuts.jpg) no-repeat top left;}
+.tuts a:hover { background-position: top right;}
+
+.fb {widht:21px; height:21px; }
+.fb a { display: block; width: 21px; height:21px; background:url(images/fb.jpg) no-repeat top left;}
+.fb a:hover { background-position: top right;} 
+
+.fl {widht:20px; height:21px; }
+.fl a { display: block; width: 20px; height:21px; background:url(images/fl.jpg) no-repeat top left;}
+.fl a:hover { background-position: top right;} 
+
+.st {widht:19px; height:21px; }
+.st a { display: block; width: 19px; height:21px; background:url(images/st.jpg) no-repeat top left;}
+.st a:hover { background-position: top right;} 
+
+.tw {widht:19px; height:21px; }
+.tw a { display: block; width: 19px; height:21px; background:url(images/tw.jpg) no-repeat top left;}
+.tw a:hover { background-position: top right;} 
+
+.vi {widht:19px; height:21px; }
+.vi a { display: block; width: 19px; height:21px; background:url(images/vi.jpg) no-repeat top left;}
+.vi a:hover { background-position: top right;} 
+
+.wp {widht:19px; height:21px; }
+.wp a { display: block; width: 19px; height:21px; background:url(images/wp.jpg) no-repeat top left;}
+.wp a:hover { background-position: top right;} 
+
+.yt {widht:21px; height:21px; }
+.yt a { display: block; width: 21px; height:21px; background:url(images/yt.jpg) no-repeat top left;}
+.yt a:hover { background-position: top right;} 
+
+.catch {widht:239px; height:60px; }
+.catch { display: block; width: 239px; height:60px; background:url(images/catch.jpg) no-repeat top left;}
+
+.border { border-bottom-style: solid; border-radius: 10px 10px 10px 10px; border-color:black; border-bottom-width:thin; text-decoration:none; margin-top:20px;}
+
+#map { margin-top:20px; border-top-style: solid; border-color:black; border-top-width:thin;}
+.map a:link {text-decoration:none; color:#333; font-family: Calibri, Arial; font-size:12px; }
+.map a:visited {text-decoration:none; color:#F00; font-family: Calibri, Arial; font-size:12px; }
+.map a:hover {text-decoration:none; color:#000; font-family: Calibri, Arial; font-size:12px;}
+.map a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; font-size:12px;}
+
+.copy {font-family:Calibri, Arial; color:#000; font-size:12px; text-align:right;}

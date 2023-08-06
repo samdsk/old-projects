@@ -1,0 +1,324 @@
+/*
+Theme Name: DsStudios 
+Theme URI: http://dsstudios.altervista.org
+Description: A search engine optimized website framework for WordPress.
+Author: DsStudios | Sam K.
+Author URI: http://dsstudios.altervista.org/
+Version: 1.0
+Tags: dsstudios, sambigds, lil, tips, &, and, tricks, blog, sam k.
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+ 
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html.
+*/
+
+@charset "utf-8";
+/*Installing custom fonts*/
+@font-face{ font-family: calibri;
+			src: url('font/calibri.ttf');}
+@font-face{ font-family:calibri;
+			font-weight:bold; 
+			src:url('font/calibrib.ttf')}
+@font-face{font-family:arial_black;
+			src:url('font/ariblk.ttf')}
+body{
+	background:url(img/bg.jpg) no-repeat fixed;
+	background-size:cover;
+	margin:0;
+	max-width:2500px;
+	max-height:2500px;
+	min-height:auto;
+	min-width:1200px;
+	/*overflow-x: hidden !important;*/
+}
+
+#wrapper{	
+	position: static;
+	top: 2%;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display:table;
+	vertical-align:middle;
+	overflow:hidden !important;
+}
+/*Header -- Start*/
+#header{
+	display:block;
+	position:relative;	
+	background:url(img/logo.png) no-repeat;
+	width:1200px; height:300px;
+	background-size:contain;
+	margin-bottom:50px;
+	/*border:thin red solid;*/
+}
+
+#header nav{
+	position:relative;
+	display:block;
+	top:250px;
+	left:0;
+	float:right;
+	width:1200px;
+	
+
+	
+}
+#header nav #navContainer{
+	position:relative;
+	display:block;
+	width:auto;
+	height:200px;
+	float:right;
+	right:150px;
+}
+
+
+#mainContent{
+
+}
+
+div #mainContent #leftContent img{
+	display:block;
+	position:relative;
+
+	
+}
+/*Index Style -- End*/
+/*Main Content Portfolio Style -- Start*/
+div #mainContainerPortfolio{
+	width:800px;
+	height:auto;
+	maring-top:20px;
+}
+div #mainContainerPortfolio h1{
+	font-family:arial_black;
+	
+}
+
+div .portfolioPost {
+	display:block;
+	position:relative;
+	margin-top:20px;
+	width:810px;
+	height:310px;	
+	left:250px;
+	background:url(img/imgBg.png) no-repeat;
+}
+
+div #imgContainer{
+	position:relative;
+	width:780px;
+	height:280px;
+	border-radius:10px;	
+	top:10px;
+	display:block;	
+	overflow:hidden;
+	border:10px solid #3a3a3a;
+	background:white;
+}
+#whiteBorder {background:url(img/imgBg.png) no-repeat;}
+#pLoader{
+	position:absolute;
+	top:150px;
+	left:400px;
+}
+div .portfolioPost img {
+	text-align: center;
+	border:none;
+
+}
+
+div #infoContainer{
+	display: block;
+	position: absolute !important;
+	z-index:0;
+	bottom:20px;
+	left:20px;
+	background:none/*#191C20*/;
+	padding:10px;
+	width:750px;
+	height:auto;
+}
+
+
+div #infoContainer span {
+	color:white;	
+	font-family:calibri;	
+	top: 0px;	
+	display: inline-block;
+	padding:5px;
+	margin:2px;
+}
+div #infoContainer #projectHead #projectTitle {
+	position:absolute; 
+	left:10px; 
+	top:10px; 
+	font-family:arial_black; 
+	font-size:20px; 
+	background:url('img/txBg.png')/*#463335*/; 
+	width:250px; 
+	color:#FEFDC4; 
+	border-radius:5px; 
+	padding:10px !important;
+	text-transform: capitalize;}
+
+
+#dateLoaded{position:absolute; display:block; top:-150px; float:left; left:-80px; margin:10px;  font-size:12px; width:50px;}
+#dateLoaded span{
+	position:relative; 
+	display:inline-block; 
+	font-size:20px !important; 
+	font-weight:bold;
+	padding:10px 10px 10px 30px !important;
+	border-radius:5px;
+	float:right;
+	text-align:right !important;
+	background:#3a3a3a;}
+#dateLoaded #projectMonth{color:#3a3a3a;background:#ff003a;}
+div#otherInfo{position:relative; margin-top:50px;  padding:10px;}
+div#otherInfo span {background:url('img/txBg.png') repeat-x /*#463335*/; color:#FEFDC4; border-radius:5px;/*border-top-right-radius:5px; border-bottom-right-radius:5px;*/ }
+
+#dateLoaded #arrowUp{
+	position:relative;
+	display:block;
+	top:33px;
+}
+#dateLoaded #arrowDown{
+	position:relative;
+	display:block;
+	top:64px;
+	right:-27px;
+}	
+
+/*portfolio MainContent Style -- End*/
+/*imgBox style -- Start*/
+#imgBox {
+	display:block;
+	position:absolute;
+	width:500px;
+	height:300px;
+	top:400px;
+	left:250px;
+	right:auto;
+	background:white;	
+	margin-left: auto;
+	margin-right: auto;
+	z-index:50;
+	border:thick solid black;
+}
+#shadow{
+	width:2000px;
+	height:1000px;
+	opacity:0.5;
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10	;
+	background:black;
+}
+#nextImg{
+	width:50px;
+	height:50px;
+	background:none;
+	display:block;
+	position:absolute;
+	top:0;
+	right:-60px;
+	z-index:51;
+}
+#prevImg{
+	width:50px;
+	height:50px;
+	background:none;
+	display:block;
+	position:absolute;
+	top:0;
+	left:-60px;
+	z-index:52;
+	
+}
+#loader{
+	width:24px;
+	height:24px;	
+	display:block;
+	position:absolute;
+	top:150px;
+	left:250px;
+	
+}
+#closeImg{
+	width:50px;
+	height:50px;
+	background:none;
+	display:block;
+	position:absolute;
+	top:-50px;
+	right:-50px;
+	z-index:53;
+	
+}
+
+#imgInfo{
+	display:block;
+	position:absolute;
+	bottom:20px;
+	left:10px;
+	background:none;
+	z-index:100;
+}
+
+#imgInfo span{
+	font-family:calibri;
+	display:inline-block;
+	background:url('img/txBg.png') /*#463335*/; 
+	text-transform: capitalize;
+	color:#FEFDC4;
+	border-top-right-radius:5px; 
+	border-bottom-right-radius:5px; 
+	
+	padding:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	text-align:center;	
+}
+#imgInfo span#imgInfoProject{
+	font-family:arial_black;
+	position:relative;
+	top:10px;
+	left:10px:
+}
+#imgInfo #imgInfoOther{
+	position:relative;
+	top:10px;
+	left:10px:
+}
+#imgInfo #imgInfoOther span{
+	position:relative;
+	display:inline-block;
+
+}
+/*imgBox style -- End*/
+/*Footer Style -- Start*/
+footer{
+	margin-top:50px;
+	border-top:2px solid #191C20;
+}
+footer ul li {
+	display:inline-block;
+	text-decoration:none !important;
+	margin:0 0 5px 5px;
+	width:80px;
+	height:20px;
+	color:#9fffff !important;
+	text-align:center;
+	background:#383431;
+	font-family:calibri;
+	font-size:12px;
+	font-weight:bold;
+	padding:7px 0 0 0;
+}
+footer ul li a{	text-decoration:none;color:#EEE !important;}
+/*Footer Style -- End*/

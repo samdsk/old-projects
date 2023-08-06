@@ -1,0 +1,47 @@
+function hrefGetter(){
+		var idGetHref = $(this).attr('href');
+
+		var saveHref = idGetHref;
+		
+		idGetHref = "javascript:void(0);";
+
+		$(this).attr('href',idGetHref);
+
+		alert(saveHref);
+		
+		idGetHref = saveHref;	
+		
+		$(this).attr('href',idGetHref);	
+		
+		return false;
+};
+
+
+
+var imgLink = "ciao";
+nodeMaker();
+
+function nodeMaker(){
+	$('body').append('<div id="candle_shadow_container"></div>');
+	$('#candle_shadow_container').append('<div id="shadow"></div>');
+	$('#candle_shadow_container').append('<div id="candle_shadow"></div>');
+	$('#candle_shadow').append('<div id="img_container" align="center">');
+	$('#img_container').append('<div id="img">'+imgLink+'</div>');
+	$('#candle_shadow').append('<div id="img_caption"></div>');
+	$('#candle_shadow').append('<div id="closer"></div>');
+	$('#closer').append('<a class="closer" href="javascript: void(0);"><img id="closerbut" src="closer.png" /></a>');
+	$('#candle_shadow').append('<div id="nav_but"></div>');
+	
+
+    <!--<div id="candle_shadow_container">
+        <div id="shadow"></div>
+        <div id="candle_shadow">
+            <div id="img_container" align="center">
+            	<div id="img">
+            	</div>
+            </div>
+            <div id="img_caption"></div>
+            <div id="closer"></div>
+            <div id="nav_but"></div>
+        </div>  
+    </div> -->

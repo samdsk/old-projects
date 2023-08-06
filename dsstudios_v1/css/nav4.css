@@ -1,0 +1,29 @@
+/* CSS Contact Css testing Document */
+
+body {background: #FFF; text-align:center;}
+
+/*table*/
+#nav table { border:2px; color:#996; padding: 10px; table-align: right;}
+
+/*nav_bg*/
+.nav4 {background-image: url(images/navwhite.jpg);}
+
+
+/*nav_other_links*/
+.other a:link, a:visited { text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+.other a:hover {text-decoration:none; color: #666; font-family: Calibri, Arial; text-align:center;}
+.other a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+
+/*nav_white_links*/
+.white a:link { text-decoration:none; color:#FFF; font-family: Calibri, Arial; text-align:center;}
+.white a:visited { text-decoration:none; color:#FFF; font-family: Calibri, Arial; text-align:center;}
+.white a:hover {text-decoration:none; color: #666; font-family: Calibri, Arial; text-align:center;}
+.white a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+
+.border { text-decoration:none; border-top-style:solid; border-top-color:#000; border-top-width:thin;}
+.map a:link {text-decoration:none; color:#333; font-family: Calibri, Arial; font-size:12px; }
+.map a:visited {text-decoration:none; color:#F00; font-family: Calibri, Arial; font-size:12px; }
+.map a:hover {text-decoration:none; color:#000; font-family: Calibri, Arial; font-size:12px;}
+.map a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; font-size:12px;}
+
+.copy {font-family:Calibri, Arial; color:#000; font-size:12px; text-align:right;}

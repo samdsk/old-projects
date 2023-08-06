@@ -1,0 +1,33 @@
+/* DsStudios Official site Css testing Document */
+
+body {text-align:center; background: #f32a34; }
+
+/*table*/
+
+
+/*nav_bg*/
+.nav1 {background-image: url(images/navwhite4.jpg);}
+
+/*nav_white_links*/
+.white a:link { text-decoration:none; color:#FFF; font-family: Calibri, Arial; text-align:center;}
+.white a:visited { text-decoration:none; color:#FFF; font-family: Calibri, Arial; text-align:center;}
+.white a:hover {text-decoration:none; color: #666; font-family: Calibri, Arial; text-align:center;}
+.white a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; text-align:center;}
+
+.links a:link { text-decoration:none; color:#FFF; font-size:50px; font-family: Calibri, Arial; text-align:center;}
+
+.links a:visited { text-decoration:none; color:#FFF; font-size:50px; font-family: Calibri, Arial; text-align:center;}
+
+.links a:hover { text-decoration:none; color:#333; font-size:50px; font-family: Calibri, Arial; text-align:center;}
+
+.links a:activelink { text-decoration:none; color:#FFF; font-size:50px; font-family: Calibri, Arial; text-align:center;}
+
+.info {color: #000; font-size:15px; font-family: Calibri, Arial; text-align:left; margin-top:1px;}
+
+.border { text-decoration:none; border-top-style:solid; border-top-color:#000; border-top-width:thin;}
+.map a:link {text-decoration:none; color:#333; font-family: Calibri, Arial; font-size:12px; margin-top:-5px;}
+.map a:visited {text-decoration:none; color:#FFF; font-family: Calibri, Arial; font-size:12px; margin-top:-5px;}
+.map a:hover {text-decoration:none; color:#000; font-family: Calibri, Arial; font-size:12px;margin-top:-5px;}
+.map a:activelink {text-decoration:none; color:#333; font-family: Calibri, Arial; font-size:12px;margin-top:-5px;}
+
+.copy {font-family:Calibri, Arial; color:#000; font-size:12px; text-align:right; margin-top:-5px;}

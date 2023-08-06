@@ -1,0 +1,139 @@
+@charset "utf-8";
+/*bodu_main.css*/
+
+#body_photo {
+	display:block;
+	position: relative;
+	top:-80px;
+	width:1024px;
+	height:450px;
+	text-align:center;
+		}
+
+#text {	display: block;
+			position:relative;
+			width: 1024px;
+			height:200px;
+			top:20px;
+			background-color: transparent;
+			border-top-left-radius:20px;
+			border-bottom-right-radius:20px;
+			}
+
+.left_title {	position:relative;
+				float:left;
+				width:450px;
+				font-family: Calibri, Arial;
+				color: #ff0030;
+				text-align:left;
+				font-size:20px;
+				padding: 10px 0px -20px 10px;
+				border-bottom-style:solid;
+				border-bottom-width:thin;
+				border-bottom-color:#000;
+				
+			
+			}
+			
+.right_title {	position:relative;
+				float:right;
+				width:450px;
+				font-family: Calibri, Arial;
+				color: #ff0030;
+				text-align:left;
+				font-size:20px;
+				padding: 10px 0px -20px 10px;
+				margin-left: 40px;
+				border-bottom-style:solid;
+				border-bottom-width:thin;
+				border-bottom-color:#000;
+			
+			}
+.left_text {position:relative;
+			top:5px;
+			float:left;
+			width:400px;
+			font-family:Calibri, Arial;
+			color:#333;
+			font-size:15px;
+			padding-left:30px; }
+			
+.right_text {position:relative;
+			top:5px;
+			float:right;
+			width:400px;
+			font-family:Calibri, Arial;
+			color:#333;
+			font-size:15px;
+			padding-left:30px; }
+#catch_container { display:inline-block;}
+			
+#catch {
+	position: relative; 
+	top:50px;
+	width:239px; 
+	height:60px;
+	background:url(images/catch.jpg) no-repeat top right;
+}
+
+#social {	position:relative;
+			top:-30px;
+			display:inline-block;
+			background:white;
+			width:239px;
+			height:21px;
+			
+}
+
+.fb {widht:21px; height:21px; display:inline-block; margin-right:10px; margin-left:10px;}
+.fb a { display: block; width: 21px; height:21px; background:url(images/fb.jpg) no-repeat top left;}
+.fb a:hover { background-position: top right;} 
+
+.fl {widht:20px; height:21px; display:inline-block; margin-right:10px;}
+.fl a { display: block; width: 20px; height:21px; background:url(images/fl.jpg) no-repeat top left;}
+.fl a:hover { background-position: top right;} 
+
+.st {widht:19px; height:21px; display:inline-block; margin-right:10px;}
+.st a { display: block; width: 19px; height:21px; background:url(images/st.jpg) no-repeat top left;}
+.st a:hover { background-position: top right;} 
+
+.tw {widht:19px; height:21px; display:inline-block; margin-right:10px;}
+.tw a { display: block; width: 19px; height:21px; background:url(images/tw.jpg) no-repeat top left;}
+.tw a:hover { background-position: top right;} 
+
+.vi {widht:19px; height:21px; display:inline-block; margin-right:10px;}
+.vi a { display: block; width: 19px; height:21px; background:url(images/vi.jpg) no-repeat top left;}
+.vi a:hover { background-position: top right;} 
+
+.wp {widht:19px; height:21px; display:inline-block; margin-right:10px;}
+.wp a { display: block; width: 19px; height:21px; background:url(images/wp.jpg) no-repeat top left;}
+.wp a:hover { background-position: top right;} 
+
+.yt {widht:21px; height:21px; display:inline-block; margin-right:10px;}
+.yt a { display: block; width: 21px; height:21px; background:url(images/yt.jpg) no-repeat top left;}
+.yt a:hover { background-position: top right;} 
+
+/*links_rollover*/
+#links {widht:238px; height:113px; display:inline-block; margin-left: 15px;}
+#links a {border-bottom-style: solid; border-radius: 10px; border-color:black; border-bottom-width:thin; display: block; width: 238px; height:113px; background:url(images/links.jpg) no-repeat top left;}
+#links a:hover { background-position: top right;}
+/*sf_rollover*/
+#sf {widht:238px; height:113px; display:inline-block; margin-left: 15px}
+#sf a {border-bottom-style: solid; border-radius: 10px; border-color:black; border-bottom-width:thin; display: block; width: 238px; height:113px; background:url(images/sf.jpg) no-repeat top left;}
+#sf a:hover { background-position: top right;}
+/*tuts_rollover*/
+#tuts {widht:238px; height:113px; display:inline-block;  margin-left: 15px}
+#tuts a {border-bottom-style: solid; border-radius: 10px; border-color:black; border-bottom-width:thin; display: block; width: 238px; height:113px; background:url(images/tuts.jpg) no-repeat top left;}
+#tuts a:hover { background-position: top right;}
+
+#share {	display:block;
+			position:relative;
+			top:10px;}
+		
+/*designerscouch*/
+#special {display:inline-block; position:relative; width:300px; height:150px; top:5px; right:0px; z-index:2; }
+#special ul {display:inline-block; position:relative; width:300px; height:150px; margin:0px; padding:0px;}
+#special a img {display:inline-block; position:relative; border:0; width:85px; height:85px; padding:0px; margin:0px;}
+#special .s2{position:relative; left: -37px;}
+#special .s3{position:relative; left: -75px;}
+

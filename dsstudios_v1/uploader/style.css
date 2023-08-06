@@ -1,0 +1,129 @@
+#staffArea {
+			font-family:calibri, Helvetica, sans-serif;
+			color:#DC3522;
+			width:500px; 
+			height:auto; 
+			margin:200px auto auto auto;}
+			
+fieldset  {	background:white;
+			display:block;
+			position:relative;
+			text-decoration:none;
+			font-size:15px;
+			font-weight:bold;			
+			padding:20px 10px 10px 30px;
+			border:1px solid #CCC;
+			border-radius:10px;
+}
+
+/*buttons effects hovers and focus*/
+#staffArea #login .submit {	background-image:url('but.jpg'); 
+							color:#b91300; 
+							width:100px; 
+							height:40px; 
+							font-family: Arial, Helvetica, sans-serif; 
+							font-size:15px; 
+							font-weight:bold; 
+							border:5px solid #666; 
+							border-radius:10px;
+							text-align:center;
+							margin-left:20px;}
+#staffArea #login .submit:hover {	
+									color:black;
+  
+}
+#staffArea #login .submit:focus {	 
+									color:black; 
+									border:5px solid #b91300;
+}
+
+#staffArea #log_funcs #logout, #staffArea #uploader .submit
+						  {	background-image:url('but.jpg'); 
+							color:#b91300; 
+							width:100px; 
+							height:40px; 
+							font-family: Arial, Helvetica, sans-serif; 
+							font-size:15px; 
+							font-weight:bold; 
+							border:5px solid #666; 
+							border-radius:10px;
+							text-align:center;
+							margin-left:20px;}
+#staffArea #log_funcs #logout:hover, #staffArea #uploader .submit:hover 
+								{	border:5px solid #b91300;
+									color:black;
+  
+}
+#staffArea #log_funcs #logout:focus, #staffArea #uploader .submit:focus 
+								{	 
+									color:black; 
+									border:5px solid #b91300;
+}
+#staffArea #uploader .submit {float:right;}
+
+
+
+/*after login*/
+
+#staffArea #log_funcs #loginok, #logout {	display:inline-block; 
+											position:relative;
+											
+}
+#staffArea #log_funcs #loginok	{ top:-70px;}
+#staffArea #log_funcs #logout	{ left:200px;}
+
+#staffArea #uploader #uploaderInput{margin:20px auto 10px 50px; border-radius:2px; width:200px; height:40px; border:1px solid #ddd; padding:10px; }
+
+#staffArea #uploader { display:block; position:relative; top:-60px;}
+
+#staffArea #uploader lable {display:inline-block; position: relative;font-size:20px; width:150px;}
+
+/*browse button*/
+#staffArea #uploader #uploaderInputFileWrapper {
+							background-image:url('but.jpg'); 
+							position:relative;
+							top:40px;
+							right:-200px;
+							color:#b91300; 
+							width:100px; 
+							height:30px; 
+							font-family: Arial, Helvetica, sans-serif; 
+							font-size:15px !important;
+							cursor:pointer; 
+							font-weight:bold; 
+							border:5px solid #666; 
+							border-radius:10px;
+							text-align:center;
+							margin-left:20px;
+							
+}
+#staffArea #uploader #uploaderInputFileWrapper:hover {border:5px solid #b91300; color:black;}
+#staffArea #uploader #uploaderInputFileWrapper:active {color:black;} 
+#staffArea #uploader #uploaderInputFileWrapper lable { font-size:15px !important; position:relative; top:5px; left:-25px; text-align:center; cursor:pointer;} 
+
+#staffArea #uploader #uploaderInputFile {
+							position:absolute;
+							background:navy;
+							cursor:pointer;
+							left:-130px;
+							width:100px;
+							height:30px;
+							z-index:100;
+							/*opacity:;
+							-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+							filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);*/
+}
+/*uploaded image details and image*/
+
+#uploaded_image_details{	display:block;
+							position:relative;
+							width:500px;
+							height:auto;
+							padding:40px 20px 20px 20px;
+							background:#fffbec;
+}
+
+#uploaded_image_details h5{	color:#907860; font-family:calibri, Helvetica, sans-serif; font-size:15px; margin-top:-20px;}
+#uploaded_image_details h5 span{	color:#D83018; font-weight:bold;}
+
+showImages{position:relative;}

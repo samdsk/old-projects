@@ -1,0 +1,13 @@
+
+<form id="uploaderForm" action="index.php" method="POST" enctype="multipart/form-data"> 
+        <input id="uploaderInput" class="progect" type="text" name="progect" autofocus placeholder="Progect Name" maxlength="30"/>
+	<input id="uploaderInput" class="typoOfProgect" type="text" name="type_of_progect" placeholder="Type of progect" maxlength="50"/>
+        <input id="uploaderInput" class="imageTitle" type="text" name="image_title" placeholder="Image title" maxlength="50"/>
+	<input id="uploaderInput" class="description" type="text" name="description" placeholder="Description" maxlength="200"/>
+	<input id="uploaderInput" class="designer" type="text" name="designer" placeholder="Designer Of progect" maxlength="50"/>
+	<input id="uploaderInput" class="software" type="text" name="software" placeholder="Software used" maxlength="50"/>
+	
+	<input id="uploaderInput" class="choosefile" type="file" name="image_file" />
+	<input id="uploaderInput" class="submit" type="submit" value="Upload"/>
+
+</form>

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*links.css*/
+
+
+#links a:link { text-decoration:none; color:#333; font-size:50px; font-family: Calibri, Arial; text-align:center;}
+#links p {color: #FF0; font-size:12px; font-family: Calibri, Arial;}
+
+
+#body {position: absolute; top:150px; left:0px; background:#7b30c9; width:2000px;}
+#body_foto{ background:url(images/official-site_slide_tuts_bg.jpg) no-repeat; width:1024px; height:350px;}
+#links_wrap {position:relative; left:20%; width:1024px; vertical-align:central; margin:20px;}
+#map_container{position:relative; top:1200px;}
