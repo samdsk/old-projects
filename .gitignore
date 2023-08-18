@@ -1,5 +1,12 @@
+node_modules/
+build
+bot_config
+.env
+
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+
 
 # Core
 #
