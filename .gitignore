@@ -55,3 +55,11 @@ wp-config.php
 #/wp-content/themes
 
 _notes
+discord_bossbot/bot_boss/config.json
+discord_bossbot/bot_boss/default_config.json
+discord_bossbot/bot_boss/reactionroles.json
+discord_bossbot/bot_boss/tokenFile.json
+discord_bossbot/bot_configs/config.json
+discord_bossbot/bot_configs/default_config.json
+discord_bossbot/bot_configs/reactionroles.json
+discord_bossbot/bot_configs/tokenFile.json

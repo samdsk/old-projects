@@ -1,0 +1,16 @@
+{
+  "name": "boss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot_boss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "ffmpeg": "^0.0.4",
+    "text-to-mp3": "^1.0.4"
+  }
+}
